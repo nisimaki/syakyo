@@ -1,0 +1,5 @@
+var ary = ["a","b","c","d"];
+
+$.each(ary, function(i, item){
+    console.log(item + i + ", ");
+});
