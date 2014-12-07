@@ -1,0 +1,5 @@
+//これはjQueryオブジェクトの1番目を取ってくる
+console.log($('ul li').eq(0));
+
+//これはDOM要素の1番目を取ってくる
+console.log($('ul li').get(0));
