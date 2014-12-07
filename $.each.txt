@@ -3,3 +3,6 @@ var ary = ["a","b","c","d"];
 $.each(ary, function(i, item){
     console.log(item + i + ", ");
 });
+
+//$('.hoge').each()はjQueryオブジェクトに行うのに対し、
+//$.each()は配列に対して処理を回すことができる。
