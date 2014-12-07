@@ -1,0 +1,9 @@
+var ary = ["a","b","c","d"];
+
+var slectedItem = $.grep(ary, function(item){
+    return item === "d";
+});
+
+alert(slectedItem);
+
+//$.grep()は第二引数の関数がtrueのときの配列要素を取り出せる   
