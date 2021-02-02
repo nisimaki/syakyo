@@ -6,3 +6,5 @@ $.each(ary, function(i, item){
 
 //$('.hoge').each()はjQueryオブジェクトに行うのに対し、
 //$.each()は配列に対して処理を回すことができる。
+
+//久しぶり！
